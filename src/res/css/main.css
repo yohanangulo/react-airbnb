@@ -1,0 +1,11 @@
+* {
+  font: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.exp-exp {
+  transform: translateY(-10%);
+}
