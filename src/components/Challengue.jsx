@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Challengue({img, name, phoneNum, email}) {
 
   return (
