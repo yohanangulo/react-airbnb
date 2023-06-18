@@ -1,20 +1,18 @@
 import React from 'react'
 
-export default function Challengue(props) {
-
-  console.log(props);
+export default function Challengue({img, name, phoneNum, email}) {
 
   return (
     <div className='mb-[100px]'>
-      <img width={"220px"} src={props.img} alt="" />
-      <h3>{props.name}</h3>
+      <img width={"220px"} src={img} alt="" />
+      <h3>my name is {name}</h3>
       <div>
         <img src="" alt="" />
-        <p>{props.phoneNum}</p>
+        <p>{phoneNum}</p>
       </div>
-      <div>
+      <div >
         <img src="" alt="" />
-        <p>(mail icon) {props.email}</p>
+        <p>(mail icon) {email}</p>
       </div>
     </div>
   )
