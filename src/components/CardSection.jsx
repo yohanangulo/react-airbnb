@@ -11,7 +11,7 @@ function CardExp(props) {
   }
 
   return (
-    <a href={"#"}>
+    <a href={"/"}>
       <div className="flex-grow-0 flex-shrink-0 basis-auto relative">
         <img
           src={props.coverImg}
