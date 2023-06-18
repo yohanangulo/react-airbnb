@@ -50,7 +50,7 @@ function CardSection() {
   return (
     <section className="flex gap-5 mt-7 container mx-auto mb-20 px-10 overflow-auto">
       {expData.map((item) => {
-        return <CardExp key={item.id} num={++count} {...item}/>;
+        return <CardExp key={item.id} {...item}/>;
       })}
     </section>
   );
